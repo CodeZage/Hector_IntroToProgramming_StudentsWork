@@ -21,7 +21,7 @@ void setup() {
   myFlower1 = new Flower (_r1, _petals, _x, _y, _pc, 2, 3); 
   myFlower2 = new Flower (_r2, _petals, _x+random(-500, 500), _y+offset, _pc, 5, 4);
   myFlower3 = new Flower (_r3, _petals, _x+50, _y-offset, _pc, 7, 5);
-  myFlowerMouse = new Flower (_r1, _petals, mouseX, mouseY, _pc);
+  myFlowerMouse = new Flower (_r1, _petals, 0, 0, _pc);
   myFlowerBox = new Flower (random(0,width), random(0,height), 200, 200, col1, 7);
 }
 
